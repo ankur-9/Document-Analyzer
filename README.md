@@ -1,4 +1,4 @@
-# 🤖 **Document Analyzer AI** 
+# 🔍 📄 🤖 **RAG Document Analyzer**
 
 A user-friendly document research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights. (It's features can be extended to any domain.)
 
