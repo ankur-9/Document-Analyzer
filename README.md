@@ -1,7 +1,7 @@
 # 🏙️ **Document Analyzer Tool**
 
 We are going to build a user-friendly document research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights. (It's features can be extended to any domain.)
-![product screenshot](resources/image.png)
+
 
 <img width="1617" height="706" alt="image" src="https://github.com/user-attachments/assets/fbcea389-172c-417a-b6d9-80e3a43a1262" />
 
@@ -48,7 +48,7 @@ The web app will open in your browser after the set-up is complete.
 
 - One can now ask a question and get the answer based on those articles
 
-- In the tutorial, we will use the following articles
+- I have used the following articles
   - https://www.ign.com/articles/forza-horizon-6-review
   - https://www.ign.com/wikis/forza-horizon-6/Tips_and_Tricks_-_Everything_to_Know_Before_Playing
   - https://www.ign.com/wikis/forza-horizon-6/Best_Starter_Car
