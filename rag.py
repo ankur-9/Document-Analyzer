@@ -1,10 +1,8 @@
 from langchain_core.tools import retriever
 from langchain_groq import ChatGroq
-# from langchain_core.prompts import PromptTemplate
 from langchain_core.exceptions import OutputParserException
 from langchain_community.document_loaders import SeleniumURLLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-# from langchain.chains import RetrievalQAWithSourcesChain
 from langchain_chroma import Chroma
 from langchain_huggingface.embeddings import HuggingFaceEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
@@ -19,7 +17,7 @@ load_dotenv()
 CHUNK_SIZE = 200
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 VECTORSTORE_DIR = Path(__file__).parent / "resources/vectorstore"
-COLLECTION_NAME = "real_estate"
+COLLECTION_NAME = "doc_research"
 
 llm = None
 vector_store = None
@@ -112,11 +110,6 @@ if __name__ == "__main__":
 
     process_urls(urls)
 
-    # results = vector_store.similarity_search(
-    #     "30 year mortgage rate",
-    #     k=2
-    # )
-    # print(results)
 
     answer, sources = generate_answers("What are some of the best starter cars in Forza Horizon 6 and why?")
     print(f"Answer: {answer}")
