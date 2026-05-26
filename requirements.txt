@@ -1,0 +1,9 @@
+python-dotenv
+streamlit
+SeleniumURLLoader
+langchain_text_splitters
+langchain-chroma
+langchain-groq
+langchain-community
+langchain_core
+langchain-huggingface
