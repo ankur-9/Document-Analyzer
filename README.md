@@ -55,5 +55,3 @@ The web app will open in your browser after the set-up is complete.
 
 
 </br>
-
----<img width="1617" height="706" alt="image" src="https://github.com/user-attachments/assets/e4baa12a-55ac-41fa-8639-19a2fd5eb59b" />
